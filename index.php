@@ -10,14 +10,29 @@
 	<header>
 		<div class="headerName"><h1>DesignDevelop</h1></div>
 		<ul>
-			<li id="itemContacts">Contacts<div class="itemContacts" ></div></li>
-			<li id="itemServices">Services<div class="itemServices"></div></li>
-			<li id="itemProjects">Projets<div class="itemProjects" ></div></li>
+			<li id="itemContacts">Contacts<div class="itemContacts" >
+				<ul class="button">
+					<li class="itemSelected">A propos</li>
+					<li class="itemSelected">contact@mail</li>
+				</ul>
+			</div></li>
+			<li id="itemServices">Services<div class="itemServices">
+				<ul class="button">
+					<li class="itemSelected">Outil</li>
+					<li class="itemSelected">Tutoriel</li>
+				</ul>
+			</div></li>
+			<li id="itemProjects">Projets<div class="itemProjects" >
+				<ul class="button">
+					<li class="itemSelected">Voir les projets</li>
+					<li class="itemSelected">Envoyez un projet</li>
+				</ul>
+			</div></li>
 			
 			<li id="itemHome">Acceuil<div class="itemHome">
 				<ul class="button">
-					<li id="itemSelected">se connecter</li>
-					<li id="itemSelected">ajout PSD</li>
+					<li class="itemSelected">Se connecter</li>
+					<li class="itemSelected">Ajout PSD</li>
 				</ul>
 			</div></li>
 		</ul>

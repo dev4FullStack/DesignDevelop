@@ -43,6 +43,8 @@ li .itemHome{
 	background-color: #2c3e50;
 	opacity: 0.7;
 	left: 0px;top: 37px;
+
+	border-radius: 5px;
 }
 
 li .itemServices{
@@ -52,6 +54,7 @@ li .itemServices{
 	background-color: #2c3e50;
 	opacity: 0.7;
 	right: 110px;top: 37px;
+	border-radius: 5px;
 }
 
 li .itemProjects{
@@ -61,6 +64,7 @@ li .itemProjects{
 	background-color: #2c3e50;
 	opacity: 0.7;
 	right: 210px;top: 37px;
+	border-radius: 5px;
 }
 
 li .itemContacts{
@@ -70,6 +74,7 @@ li .itemContacts{
 	background-color: #2c3e50;
 	opacity: 0.7;
 	right: 0px;top: 37px;
+	border-radius: 5px;
 }
 .button{
 	position: absolute;
@@ -77,13 +82,13 @@ li .itemContacts{
 	right: 36px;
 	background-color: 
 }
-#itemSelected {
+.itemSelected {
 	list-style-type: none;
 	margin-top: 5px;
 	color: #FFF; 
 
 }
-#itemSelected:hover {
+.itemSelected:hover {
 	background-color: #e74c3c;
 	color:#FFF;
 	border-radius: 3px;
