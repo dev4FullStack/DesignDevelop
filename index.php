@@ -13,8 +13,9 @@
 			<li id="itemContacts">Contacts<div class="itemContacts" ></div></li>
 			<li id="itemServices">Services<div class="itemServices"></div></li>
 			<li id="itemProjects">Projets<div class="itemProjects" ></div></li>
+			
 			<li id="itemHome">Acceuil<div class="itemHome">
-				<ul class="buttonHome">
+				<ul class="button">
 					<li id="itemSelected">se connecter</li>
 					<li id="itemSelected">ajout PSD</li>
 				</ul>
