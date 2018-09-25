@@ -40,10 +40,10 @@
 
 	<nav class="content">
 		<h3>Bienvenue sur mon site desgin develop</h3>
-		<h1>Vous disposer d'un choix de PSD</h1>
-		<h3>Que vous devrais réaliser et vous serais notez le meilleur emporteras un cadeau</h3>
+		<h1>Vous voulez soumettre un PSD</h1>
+		<h3>Nous réaliserons votre PSD sous un certains temps</h3>
 
-		<button id="launch">Se lancer</button>
+		<button id="launch">soumettre</button>
 	</nav>
 
 	<script type="text/javascript" src="bin/js/skyWeb.js"></script>

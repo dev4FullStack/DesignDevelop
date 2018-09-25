@@ -24,7 +24,7 @@
 
 	launch.addEventListener('click',function(e){
 	    content = document.querySelector(".content");
-		content.innerHTML = includePHP('http://127.0.0.1/www/lab/integrationPSD/DesignDevelop/bin/php/core.php');
+		content.innerHTML = includePHP('http://127.0.0.1/www/lab/integrationPSD/DesignDevelop/bin/php/addUser.php');
 
 		console.log(content.class);
 		content.className = "webNav" ;
