@@ -97,3 +97,35 @@ li .itemContacts{
 	border-radius: 3px;
 
 }
+
+.content{
+	color: #FFF;
+	display: block;
+	position: absolute;
+	margin-top: 35px;
+	bottom: 90px;left: 180px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.content > h1 {
+	font-size: 38px;
+
+}
+
+button {
+	width: 200px;height: 60px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f1c40f;
+	
+	text-transform: uppercase;
+	color: #000;
+	font-size: 22px;
+
+}
+
+button:hover {
+	background-color: #e67e22;
+	color: #ecf0f1;
+}
