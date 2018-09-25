@@ -1,8 +1,9 @@
+
+/*Fonction anonyme MAIN de l'appli*/
 (function(){
 	let ith = document.querySelectorAll("[id^='item']");
-	let instHome = ith.innerHTML;
+	let launch = document.querySelector("#launch");
 
-	console.log(ith.length);
 	for(let i = 0; i < ith.length; i++){
 		console.log('.'+ith[i].id);
 		let block = document.querySelector('.'+ith[i].id);
@@ -21,4 +22,14 @@
 
 	}
 
+	launch.addEventListener('click',function(e){
+	    content = document.querySelector(".content");
+		content.innerHTML = includePHP('http://127.0.0.1/www/lab/integrationPSD/DesignDevelop/bin/php/core.php');
+
+		console.log(content.class);
+		content.className = "webNav" ;
+		content.offsetWidth;
+	});
+
 })();
+

@@ -46,6 +46,7 @@
 		<button id="launch">Se lancer</button>
 	</nav>
 
+	<script type="text/javascript" src="bin/js/skyWeb.js"></script>
 	<script type="text/javascript" src="bin/js/core.js"></script>
 </body>
 </html>
