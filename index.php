@@ -38,6 +38,14 @@
 		</ul>
 	</header>
 
+	<nav class="content">
+		<h3>Bienvenue sur mon site de desgin develop</h3>
+		<h1>Vous disposer d'un choix de PSD</h1>
+		<h3>Que vous devrais réaliser et vous serais notez le meilleur emporteras un cadeau</h3>
+
+		<button id="launch">Se lancer</button>
+	</nav>
+
 	<script type="text/javascript" src="bin/js/core.js"></script>
 </body>
 </html>

@@ -11,12 +11,7 @@
 			
 			block.style.display = 'block';
 			this.offsetWidth;
-			/*
-			block.addEventListener('mouseover',function(){
-				this.style.display = 'block';
-				this.offsetWidth;
-			});
-			*/
+			
 			block.addEventListener('mouseout',function(){
 				this.style.display = 'none';
 				this.offsetWidth;
