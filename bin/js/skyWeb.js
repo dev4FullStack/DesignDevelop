@@ -1,7 +1,7 @@
 function includePHP(path){
 	req = new XMLHttpRequest()
 
-	req.open('GET', 'http://127.0.0.1/www/lab/integrationPSD/DesignDevelop/bin/php/core.php', false);
+	req.open('GET', path, false);
 	req.send(null);
 
 	// if (req.status === 0) {}
