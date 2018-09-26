@@ -1,11 +1,9 @@
-	
-class SkyWeb(){
 
-	function SkyWeb(self){
-		
-	}
+function SkyWeb(){
 
-	function includePHP(path){
+	var self = {};
+
+	self.includePHP = function(path){
 		req = new XMLHttpRequest()
 
 		req.open('GET', path, false);
@@ -13,4 +11,6 @@ class SkyWeb(){
 
 		return req.responseText;
 	}
+
+	return self;
 }
