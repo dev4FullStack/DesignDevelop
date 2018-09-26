@@ -1,6 +1,6 @@
 
 <div class="userContent">
-	<form action="bin/php/core.php?posData=addUser"  method="POST">
+	<form action="bin/php/core.php?addUser=on"  method="POST">
 		<input type="text" name="userFName" value="Entrez votre nom       ">
 		<input type="text" name="userLName" value="Entrez votre prenom    ">
 		<input type="text" name="userEmail" value="Entrez votre e-mail    ">

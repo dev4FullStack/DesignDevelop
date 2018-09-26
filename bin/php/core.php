@@ -1,12 +1,24 @@
 <?php
-	
-	$__main__ = 'starter';
+	require './LynxBDD.php';
 
+	$__main__ = 'starter';
+	$lynx = new LynxBDD();
 
 	if (isset($_GET)){
-		if($_GET['posData']){
-			var_dump($_POST);
+		foreach (array_keys($_GET) as $key) {
+			switch($key){
+				case 'addUser':
+					echo 'envoie user its okay? :: '.$_GET[$key];
+					break;
+				default:
+					break;
+			}
 		}
+		// if($_GET['posData']){
+		// 	//var_dump(array_keys($_GET));
+
+		// 	//var_dump($_POST);
+		// }
 	}
 	
 
