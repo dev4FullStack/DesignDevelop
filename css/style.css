@@ -129,7 +129,11 @@ button:hover {
 	background-color: #e67e22;
 	color: #ecf0f1;
 }
+/*
 
+Gére l'affichage de la div dans la balise NAV
+
+*/
 .webNav{
 	color: #FFF;
 	display: block;
