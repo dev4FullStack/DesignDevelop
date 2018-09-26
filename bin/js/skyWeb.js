@@ -1,10 +1,16 @@
-function includePHP(path){
-	req = new XMLHttpRequest()
+	
+class SkyWeb(){
 
-	req.open('GET', path, false);
-	req.send(null);
+	function SkyWeb(self){
+		
+	}
 
-	// if (req.status === 0) {}
+	function includePHP(path){
+		req = new XMLHttpRequest()
 
-	return req.responseText;
+		req.open('GET', path, false);
+		req.send(null);
+
+		return req.responseText;
+	}
 }

@@ -1,4 +1,6 @@
 
+skw = new SkyWeb();
+
 /*Fonction anonyme MAIN de l'appli*/
 (function(){
 	let ith = document.querySelectorAll("[id^='item']");
@@ -24,9 +26,9 @@
 
 	launch.addEventListener('click',function(e){
 	    content = document.querySelector(".content");
-		content.innerHTML = includePHP('http://127.0.0.1/www/lab/integrationPSD/DesignDevelop/bin/php/addUser.php');
-
-		console.log(content.className);
+	    //ont séléctionne le DOM puis ont injecte notre nouveau contenu 
+		content.innerHTML = skw.includePHP('http://127.0.0.1/www/lab/integrationPSD/DesignDevelop/bin/php/addUser.php');
+		//ont adapte la classe a celle de notre nouveau contenu
 		content.className = "webNav" ;
 		content.offsetWidth;
 	});
