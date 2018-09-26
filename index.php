@@ -1,3 +1,13 @@
+<?php 
+	session_start();
+
+	$fname = isset($_SESSION['user.fname']) ? $_SESSION['user.fname'] : null;
+	if(isset($fname)) {
+		
+	}else{
+		
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +19,7 @@
 <body>
 	
 	<header>
-		<div class="headerName"><h1>DesignDevelop</h1></div>
+		<div class="headerName"><h1>DesignDevelop<p><?= isset($fname) ? 'Bienvenue '.$fname : ''; ?></p></h1></div>
 		<ul>
 			<li id="itemContacts">Contacts<div class="itemContacts" >
 				<ul class="button">

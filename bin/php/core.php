@@ -1,14 +1,26 @@
 <?php
-	require './LynxBDD.php';
+	include './LynxBDD.php';
+	include './Validate.php';
+
+	session_start();
 
 	$__main__ = 'starter';
 	$lynx = new LynxBDD();
+	$lx = $lynx;
 
 	if (isset($_GET)){
 		foreach (array_keys($_GET) as $key) {
 			switch($key){
 				case 'addUser':
-					echo 'envoie user its okay? :: '.$_GET[$key];
+					if($lx->addUsers($_GET[$key])){
+						$fName = $_POST['userFName'];
+						$_SESSION['user.fname'] = $fName;
+
+
+						header("Location: ../../index.php?session=true");
+					}else{
+
+					}
 					break;
 				default:
 					break;
