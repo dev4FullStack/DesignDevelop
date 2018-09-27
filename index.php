@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
 	session_start();
 
@@ -14,6 +15,8 @@
 
 	require './bin/php/core.php';
 ?>
+=======
+>>>>>>> parent of 12a9df3... warn:phase de test des enregistrement données
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +28,7 @@
 <body>
 	
 	<header>
-		<div class="headerName"><h1>DesignDevelop<p><?= isset($fname) ? 'Bienvenue '.$fname : ''; ?></p></h1></div>
+		<div class="headerName"><h1>DesignDevelop</h1></div>
 		<ul>
 			<li id="itemContacts">Contacts<div class="itemContacts" >
 				<ul class="button">

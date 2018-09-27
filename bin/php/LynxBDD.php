@@ -1,13 +1,13 @@
 <?php 
 
-class LynxBDD{
+class Lynx{
 
 	public function __construct(){
 
 	}
 
 	public function addUsers($array){
-		return true;
+
 	}
 
 	public function addComment($array){
@@ -24,5 +24,3 @@ class LynxBDD{
 
 	
 }
-
-?>
