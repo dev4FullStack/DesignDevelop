@@ -1,8 +1,8 @@
 <?php
-	include './LynxBDD.php';
-	include './Validate.php';
+	include 'bin/php/LynxBDD.php';
+	include 'bin/php/Validate.php';
 
-	session_start();
+	//session_start();
 
 	$__main__ = 'starter';
 	$lynx = new LynxBDD();
@@ -17,10 +17,13 @@
 						$_SESSION['user.fname'] = $fName;
 
 
-						header("Location: ../../index.php?session=true");
+						header("Location: /index.php?session=true");
 					}else{
 
 					}
+					break;
+				case 'session':
+					var_dump($key);die();
 					break;
 				default:
 					break;

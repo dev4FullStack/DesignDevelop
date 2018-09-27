@@ -1,12 +1,18 @@
 <?php 
 	session_start();
 
-	$fname = isset($_SESSION['user.fname']) ? $_SESSION['user.fname'] : null;
-	if(isset($fname)) {
+	// $fname = isset($_SESSION['user.fname']) ? $_SESSION['user.fname'] : null;
+	// if(isset($fname)) {
+	// 	/*
+	// 	var_dump($fname);
+	// 	$_SESSION['user.fname'] = null;
+	// 	die();
+	// 	*/
+	// }else{
 		
-	}else{
-		
-	}
+	// }
+
+	require './bin/php/core.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
