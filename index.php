@@ -1,22 +1,24 @@
-<<<<<<< HEAD
 <?php 
+	require 'bin/php/User.php';
+
+	$use = new User(array());
+
+
+	die();
 	session_start();
 
 	// $fname = isset($_SESSION['user.fname']) ? $_SESSION['user.fname'] : null;
 	// if(isset($fname)) {
-	// 	/*
+		
 	// 	var_dump($fname);
 	// 	$_SESSION['user.fname'] = null;
 	// 	die();
-	// 	*/
 	// }else{
 		
 	// }
 
-	require './bin/php/core.php';
+	require_once('bin/php/UX.php');
 ?>
-=======
->>>>>>> parent of 12a9df3... warn:phase de test des enregistrement données
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,9 +28,8 @@
 	<title>DesignDevelop</title>
 </head>
 <body>
-	
 	<header>
-		<div class="headerName"><h1>DesignDevelop</h1></div>
+		<div class="headerName"><h1>DesignDevelop<p><!-- ux->getUser()->name()--> </p></h1></div>
 		<ul>
 			<li id="itemContacts">Contacts<div class="itemContacts" >
 				<ul class="button">
@@ -57,6 +58,7 @@
 			</div></li>
 		</ul>
 	</header>
+	
 
 	<nav class="content">
 		<h3>Bienvenue sur mon site desgin develop</h3>
